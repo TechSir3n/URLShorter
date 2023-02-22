@@ -1,4 +1,4 @@
-# Shortener URL 
+# Shorter URL 
 
 ![image](https://github.com/Kl1ck9r/ShortenerURL/blob/main/screenshots/url-shorter.png)
 

@@ -22,7 +22,7 @@ make docker-run     #docker run url-shortener
 ## Build / Run
 
 ```shell
-git clone https://github.com/Kl1ck9r/ShortenerURL.git
+git clone https://github.com/Kl1ck9r/URLShorter.git
 cd url-shortener
 make build
 make run 

@@ -1,6 +1,6 @@
 # Shortener URL 
 
-![image](https://ltdfoto.ru/image/isuAFp)
+![image](https://github.com/Kl1ck9r/ShortenerURL/blob/main/screenshots/url-shorter.png)
 
 # Requirements
 * **Go:** `20.0`

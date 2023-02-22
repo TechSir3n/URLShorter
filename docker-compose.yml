@@ -1,0 +1,36 @@
+version: '3.9'
+services:
+  server:
+    restart: always
+
+    build: .
+
+    container_name: 'url-shorter'
+
+    ports:
+      - "8080:8080"
+
+    depends_on:
+      - redis
+
+    environment:
+      ARGS: -env
+
+      #Redis 
+      REDIS_HOST: ${REDIS_ADDR}
+
+  redis:
+    image: redis:alpine
+
+    restart: always
+
+    hostname: redis
+
+    command: ["redis-server", "--bind", "redis", "--port", "6379"]
+
+    ports:
+      - "6379:6379"
+
+networks:
+  host:
+    driver: bridge
